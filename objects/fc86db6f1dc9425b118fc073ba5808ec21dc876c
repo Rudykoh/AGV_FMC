@@ -1,0 +1,12 @@
+[module "1f60f3c2-f336-342d-9125-6ce952b4b77c"]
+	conflict = request-pull
+	path = FMC
+	pull = merge subtree
+	pull = squash never
+	ref = if refs/heads/main sync refs/heads/main
+	url = agnostic://gh/558278320
+[map "98a2054f-480b-3246-913c-1c12421fd2e2"]
+	object = 864a88ccc1196c5fa6132fb890e9e4fef7882841
+	path = FMC
+	stage = sync
+	type = extract module
